@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>The IoT of Today and Tomorrow</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -41,343 +41,220 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Interface it All</h1>
+				<section data-background="#F44336">
+					<h1>The IoT of Today and Tomorrow</h1>
 					<h3>The what, how, and impact of the internet of things</h3>
 					<p>
 						<small><a href="http://ryanturner.me">Ryan Turner</a> / <a href="http://twitter.com/k0ret">@k0ret</a></small>
 					</p>
-				</section>
-
-				<section>
-					<h2>Devices added</h2>
-					<h3 id="device-counter">1</h3>
-				</section>
-
-				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						In 2009, I bought my first Arduino. I played with it with lots of projects, but the first big one was access control on a door. It used a motion sensor inside and an RFID reader outside to control locking and unlocking a deadbolt with a servo.
+						My parents were impressed, but at the same time concerned by a door that unlocked itself, and so they wanted to know when it was locked. So, I added my laptop to it, since this was before Raspberry PIs existed, and now we had a way to see when and why the door had been unlocked, and realtime over LAN its status.
+						This was the first time I'd experimented with the Internet of Things.
 					</aside>
 				</section>
 
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				<section data-background="#9C27B0">
+					<h2>Devices added</h2>
+					<h3 id="device-counter">1</h3>
+					<aside class="notes">
+						Since then, a lot has changed. Most notably though is adoption. Things, like door locks or cars, are being connected to the internet at an incredible pace.
+					</aside>
 				</section>
 
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
+				<section data-background="#9C27B0">
+					<img src="66901474.jpg" />
+					<aside class="notes">
+						It's resulted in people really just saying "take everything and connect it to the internet." Apparently I'm that sucker, because my humidifier at home is on my wireless lan.
+					</aside>
 				</section>
 
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
+				<section data-background="#FFC107">
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						“Most of the IoT is a waste”
+					</blockquote>
+					<small>Engineer for a local agribusiness systems company</small>
+					<aside class="notes">
+						Most of the internet of things is a waste. I have a friend here in town who designs circuitry for IoT sensors used by farmers.
+						In my eight years of tinkering, I've come to realize he's right. A lot of what people consider the Internet of Things today doesn't improve daily life.
+					</aside>
 				</section>
 
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
+				<section data-background="#FFC107">
+					<h2>The Old (Current?) Stack</h2>
 					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li class="fragment">HTTP</li>
+						<li class="fragment">TCP</li>
+						<li class="fragment">IPv4</li>
+						<li class="fragment">IEEE 802.3 or 802.11</li>
+					</ul>
+					<aside class="notes">
+						Let's talk about today though: what makes the internet of things? One solution today is ethernet and the web.
+					</aside>
+				</section>
+
+				<section data-background="#FFC107">
+					<img src="foscam.jpg">
+					<aside class="notes">
+						A good example of that is network cameras. Prior to network cameras, you had a separate network of analog cameras captured by a recorder, that may or may not have then been able to interact with your TV or computer. Now, you just connect it to your wifi and use your existing devices to record and view.
+					</aside>
+				</section>
+
+				<section data-background="#FFC107">
+					<img src="wemo.jpg">
+				</section>
+
+				<section data-background="#FFC107">
+					<h2>Other Networks (not necessarily "internet")</h2>
+					<p class="fragment">Z-Wave is mostly for home automation; it's in the 900 mhz range, a node-mesh topology, </p>
+					<p class="fragment">Proprietary stuff exists too, like for Kidee smoke detectors, Lutron Caseta lights</p>
+					<p class="fragment">Some people use bluetooth as a network</p>
+					<p class="fragment">ZigBee is a UHF low power mesh network -- a lot of home made solutions here; it's very flexible</p>
+					<p class="fragment">. . . FRAGMENTATION!</p>
+				</section>
+				<section data-background="#FFC107">
+					<img src="winkhub.jpg">
+				</section>
+				<section data-background="#FFC107">
+					<h2>Connecting existing home automation networks</h2>
+					<p>Wink Hub lets you take existing bluetooth, Z-Wave, ZigBee, and Lutron Caseta devices and connect them to the cloud</p>
+					<p class="fragment">Result is turning on or off a light can take about 5 seconds and depends on the cloud <small>they just introduced the first local connection for lights, but for everything else this is still true</small></p>
+				</section>
+
+				<section data-background="#FFC107">
+					<h2>Why this sucks</h2>
+					<ul>
+						<li class="fragment">Power hungry</li>
+						<li class="fragment">Thick stack</li>
+						<li class="fragment">Complicated interoperability</li>
+					</ul>
+					<small class="fragment">Wink is trying to address these and its a fairly robust platform now</small>
+				</section>
+
+				<section data-background="#03A9F4">
+					<h2>The New Stack</h2>
+					<ul>
+						<li class="fragment">CoAP</li>
+						<li class="fragment">UDP</li>
+						<li class="fragment"><a href="http://tools.ietf.org/html/draft-daniel-6lowpan-interoperability-01">6LoWPAN</a></li>
+						<li class="fragment"><a href="https://standards.ieee.org/getieee802/download/802.15.4-2011.pdf">IEEE 802.15.4</a></li>
+					</ul>
+					<aside class="notes">
+
+					</aside>
+				</section>
+
+				<section data-background="#03A9F4">
+					<h2>Real world examples of the new stack</h2>
+					<p class="fragment">FedEx's Matrix sorter has current sensors attached to their conveyor motors. They're using 802.15.4 and LoWPAN.</p>
+					<p class="fragment">Nest Thermostat and Nest Protect use 802.15.4, 6LoWPAN, UDP, and Google's Thread to interact without a traditional 802.11 wlan.</p>
+				</section>
+
+				<section data-background="#03A9F4">
+					<h2>The big application is sensor networks</h2>
+					<p class="fragment">For services like propane delivery or battery stocking, eliminate unnecessary deliveries</p>
+					<p class="fragment">For utility companies, have better usage information and grid awareness</p>
+					<p class="fragment">For farmers, monitor cloud cover, soil moisture, salinity to increase water and labor efficiency</p>
+				</section>
+
+				<section data-background-video="amazon-robotics.mp4">
+				</section>
+
+				<section data-background="#03A9F4">
+					<h1>Home automation is only a tiny subset of IoT</h1>
+				</section>
+
+				<section data-background="#00BCD4">
+					<h2>How to connect thing</h2>
+					<p class="fragment">Decide which stack you want to invest in</p>
+					<p class="fragment">Points to consider are:</p>
+					<ul>
+						<li class="fragment">What should the thing to do</li>
+						<li class="fragment">How many things are there</li>
+						<li class="fragment">What networks are there today</li>
 					</ul>
 				</section>
 
+				<section data-background="#00BCD4">
+					<h2>Development Boards</h2>
+					<ul>
+						<li class="fragment">Arduino + ZigBee</li>
+						<li class="fragment">TI SensorTag</li>
+						<li class="fragment">esp8266 derivative</li>
+						<li class="fragment">Raspberry Pi or any other single board computer</li>
+					</ul>
+				</section>
+
+				<section data-background="#00BCD4">
+					<h2>OS</h2>
+					<p class="fragment">Windows 10 IoT</p>
+					<p class="fragment">Ubuntu Snappy Core</p>
+					<p class="fragment">Google's Brillo</p>
+					<p class="fragment">... none</p>
+				</section>
+
+				<section data-background="#00BCD4">
+					<h2>Firmware</h2>
+					<p class="fragment">NodeMCU</p>
+					<p class="fragment">Espruino</p>
+					<p class="fragment">Arduino</p>
+					<p class="fragment">Contiki</p>
+				</section>
+
+				<section data-background="#E91E63">
+					<h2>The delimas</h2>
+					<p class="fragment">Convenience vs complexity</p>
+					<p class="fragment">Savings vs cost</p>
+					<p class="fragment">Security AND privacy</p>
+				</section>
+				<section data-background="#E91E63">
+					<blockquote cite="https://home-assistant.io/blog/2016/01/19/perfect-home-automation/#read-more">
+						You should not have to adapt to technology.
+					</blockquote>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Convenience</h2>
+					<p class="fragment">My closet light turns on every morning with my alarm</p>
+					<p class="fragment">I can remotely know for certain whether I remembered to lock the door</p>
+					<p class="fragment">My thermostat turns the AC off when we're not home</p>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Complexity</h2>
+					<p class="fragment">I now have to worry about whether the time on the server controlling my closet light is synced with my alarm clock</p>
+					<p class="fragment">Now I worry more about whether or not I locked the door</p>
+					<p class="fragment">Sometimes my thermostat thinks I'm away when I'm actually napping... and it gets hot</p>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Savings</h2>
+					<p class="fragment">My electricity and gas bill is lower</p>
+					<p class="fragment">I'm going to drop my ADT alarm monitoring</p>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Cost</h2>
+					<p class="fragment">I've spent a lot of time setting this up</p>
+					<p class="fragment">I've had to do a fair bit of development to get integrations working</p>
+					<p class="fragment">My fiancee is really annoyed</p>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Security</h2>
+					<p class="fragment">Existing system needs to be secure</p>
+					<p class="fragment">Keep your devices up-to-date</p>
+					<p class="fragment">Consider what an outsider could gain from your information</p>
+				</section>
+				<section data-background="#E91E63">
+					<h2>Privacy</h2>
+					<p class="fragment">Could you self incriminate?</p>
+					<p class="fragment">How could businesses exploit your data?</p>
+					<p class="fragment">How much info is "too much" for even your own consumption?</p>
+				</section>
 				<section style="text-align: left;">
 					<h1>THE END</h1>
 					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						- <a href="https://amazonrobotics.com">amazonrobotics.com</a> <br>
+						- <a href="http://www.wemo.com/">wemo.com</a> <br>
+						- <a href="http://www.wink.com/">wink.com</a> <br>
+						- <a href="http://home-assistant.io/">home-assistant.io</a>
+						- <a href='http://www.zigbee.org/'>Zigbee.org</a>
 					</p>
 				</section>
 
